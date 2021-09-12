@@ -1,0 +1,33 @@
+* {
+    list-style-type: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+
+
+body {
+    background-image: url("images/jason-leung-Xaanw0s0pMk-unsplash.jpg");
+    background-size: contain;
+    
+}
+
+li {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.jumbotron-fluid {
+    background-color: orange;
+    
+    background-image: linear-gradient(orange, blue);
+    text-align: center;
+    border: rgb(255, 180, 40) 5px solid; 
+}
+
+
+img {
+    height: 300px;
+    width: 200px; 
+    margin: 7px;
+    border: dotted 10px blue; 
+}
