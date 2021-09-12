@@ -12,7 +12,7 @@ body {
 }
 
 li {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -29,5 +29,11 @@ img {
     height: 300px;
     width: 200px; 
     margin: 7px;
-    border: dotted 10px blue; 
+    border: dashed 10px blue; 
+}
+
+.footer {
+    width: 50px;
+    height: 50px;
+    border: none;
 }
