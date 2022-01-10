@@ -6,8 +6,9 @@
 
 
 body {
-    background-image: url("images/jason-leung-Xaanw0s0pMk-unsplash.jpg");
+    background-image:url("images/krystal-ng-PrQqQVPzmlw-unsplash.jpg");
     background-size: contain;
+    background-repeat: repeat;
     
 }
 
@@ -17,11 +18,13 @@ li {
 }
 
 .jumbotron-fluid {
-    background-color: orange;
+    background-color: rgb(179, 22, 22);
     
-    background-image: linear-gradient(orange, blue);
+    background-image: url("https://media.giphy.com/media/OPtp47fgYK8oa3TiyZ/giphy.gif"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    border: rgb(255, 180, 40) 5px solid; 
+    border: rgb(black 5px solid); 
 }
 
 
@@ -29,7 +32,16 @@ img {
     height: 300px;
     width: 200px; 
     margin: 7px;
-    border: dashed 10px blue; 
+    border: dashed rgb(182, 65, 123)  5px; 
+    border-radius: 50%;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-property: transform filter;
+}
+
+img:hover {
+    transform: translateY(40px);
+    filter: blur(3px);
 }
 
 .footer {
