@@ -1,113 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Aven's Birthday</title>
+    <style>
+
+* {
+    list-style-type: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px 10px; 
+}
+        body {
+            background-color: rgb(12, 61, 12);
+        }
+
+        img {
+            height: 250px;
+            width: 250px;
+            border: solid black 5px;
+            border-radius: 80%;
+            margin: 0px 20px;
+            box-shadow: 5px 10px 8px #888888;
+        }
+
+        .map {
+            float: right;
+            margin-right: 80px;
+            margin-bottom: 80px;
+        }
+
+        #borderimg1 {
+            border: 25px solid transparent;
+            padding: 15px;
+            border-image: url(images/camo.jpg) 50 round;
+            height: 1100px;
+            margin: 0px 0px;
+            
+        }
+
+        #borderimg2 {
+            border: 24px solid transparent;
+            padding: 15px;
+            border-image: url(images/camo.jpg) 20% round;
+        }
+
+        #borderimg3 {
+            border: 23px solid transparent;
+            padding: 15px;
+            height: 800px;
+            border-image: url(images/camo.jpg) 30% round;
+
+        }
+
+        .animate__animated.animate__flash {
+            --animate-duration: 10s;
+
+        }
+
+        .hcb-icon,
+        .footer {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link rel="stylesheet" type=text/css href="style.css"> -->
 </head>
 
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md 12">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <h1 class="display-4">Ari is turning 6!!!</h1>
-                        <h2>Please Join Us February 12</h2>
-                        <h2>Leave a Comment below to RSVP</h2>
-                        <h3 style="color: rgb(255, 44, 44); font-size: 28px;"><strong>I CAN GET TICKETS FOR $33.99<br> LET ME KNOW IF YOU WANT ONE.</strong></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2">
-                <img src="images/ari1.jpg" alt="Aven one">
-            </div>
-            <div class="col-md-2">
-                <img src="images/ari2.jpg" alt="Rushmore">
-            </div>
-            <div class="col-md-2">
-                <img src="images/ari3.jpg" alt="star">
-            </div>
-            <div class="col-md-2">
-                <img src="images/ari4.jpg" alt="star">
-            </div>
-            <div class="col-md-2">
-                <img src="images/ari5.jpg" alt="star">
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <hr>
 
-        <p style="color: white">Please join us for some food and cake. <br>
-            We will leave for Elitchs around 2:30pm. <br>
-            If you want to join us for Elitches afterwards, you are welcome</p>
-   
+    <div id="borderimg1">
+        <h1 class="animate__flash">Aven is Turning 9!! </h1>
+        <br>
+        <img src="images/avensing1.jpg">
+        <!-- <img src="images/avenfam.jpg">
+        <img src="images/avensing2.jpg"> -->
+        <br>
+
         
-        <div class="row">
-            <div class="col-md-6">
-                <h2><u>Ari's Birthday</u></h2>
-                <ul>
-                    <li>Who: Ari Rose</li>
-                    <li>What: 6th Birthday</li>
-                    <li>When: February 12, 2022 </li>
-                    <li>What time: Join us from 1-3pm</li>
-                    <li>Where: Lava Island </li>
-   </ul>
-            </div>
-            <div class="col-md-6">
-                <h2><u>Ari's Interests</u></h2>
-                <ul>
-                    <li>Art</li>
-                    <li>Posters</li>
-                    <li>Size 6 Clothes</li>
-                    <li>Hoodies</li>
-                    <li>Jewelry</li>
-                    <li>Mini Toys</li>
-                    <li>Dolphins</li>
-                    <li>All the Girly Stuff</li>
-                </ul>
-            </div>
+
+        <h2>Who: Aven Joel</h2>
+        <h2>When: September 17, 2022 </h2>
+        <h2>Where: Lakeside Amusment Park</h2>
+        <h2>What Time: 1pm-5pmish <i>Park opens at 1pm</i></h2>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d98120.52128897746!2d-105.053481!3d39.778579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b879837e48069%3A0x34983ce02c27de29!2s4601%20Sheridan%20Boulevard%2C%20Denver%2C%20CO%2080212!5e0!3m2!1sen!2sus!4v1661372231054!5m2!1sen!2sus"
+            width="600" height="450" class="map" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+        <br>
+        <br>
+
+    </div>
+    <br>
+    <br>
+
+    <div id="borderimg2">
+        <h2>Interests</h2>
+        <ul>
+            <li>Cars, Cars, Cars</li>
+            <li><i>Anything that pertains to cars, books, posters, cars, etc</i></li>
+            <li>Gaming </li>
+            <li>Clothes <i>dress clothes </i></li>
+            <li>Bike assesories. <i>He needs a lock</i></li>
+            <li>Tennis/athletic Gear</li>
+        </ul>
+
+
+
+
+
+    </div>
+    <br>
+    <br>
+
+    <div id="borderimg3">
+        <h2> RSVP in the Comment Section</h2>
+
+<br>
+
+
+        <div class="review-box">
+            <img src="https://media.giphy.com/media/JkNCdP4u2ZN4GzJBGR/giphy-downsized-large.gif" alt="giphy"
+                style="width:250px;  margin-left: 80px; height:250px;border: solid black 3px">
+            <!-- begin wwww.htmlcommentbox.com -->
+            <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+            <link rel="stylesheet" type="text/css"
+                href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+            <script type="text/javascript"
+                id="hcb"> /*<!--*/ if (!window.hcb_user) { hcb_user = {}; } (function () { var s = document.createElement("script"), l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"), h = "https://www.htmlcommentbox.com"; s.setAttribute("type", "text/javascript"); s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24gkRowl4jZVzTk9lyxGCaV1" + "&opts=16862&num=10&ts=1603987299642"); if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s); })(); /*-->*/</script>
+            <!-- end www.htmlcommentbox.com -->
         </div>
-    </div>
-    <br>
-    <br>
-    <br>
 
-    <div class="review-box">
-        <img src="https://media.giphy.com/media/229Ozo6sMl3K69NgwE/giphy.gif" alt="giphy"
-            style="width:250px;height:250px;border: solid black 3px">
-        <!-- begin wwww.htmlcommentbox.com -->
-        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
-        <link rel="stylesheet" type="text/css"
-            href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-        <script type="text/javascript"
-            id="hcb"> /*<!--*/ if (!window.hcb_user) { hcb_user = {}; } (function () { var s = document.createElement("script"), l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"), h = "https://www.htmlcommentbox.com"; s.setAttribute("type", "text/javascript"); s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24gkRowl4jZVzTk9lyxGCaV1" + "&opts=16862&num=10&ts=1603987299642"); if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s); })(); /*-->*/</script>
-        <!-- end www.htmlcommentbox.com -->
+        <p class="footer">Powered by <a href="https://apven77.github.io/Portfolio-2020/" title="W3.CSS" target="_blank"
+                class="footer" style="width: 50px; height: 50px"><img src="images/ApVen Logo.png" class="footer"></a>
+        </p>
+
     </div>
 
-    <p class="footer">Powered by <a href="https://apven77.github.io/Portfolio-2020/" title="W3.CSS"
-        target="_blank" class="footer" style="width: 50px; height: 50px"><img src="images/ApVen Logo.png" class="footer"></a></p>
+    
+
+
 </body>
 
 </html>

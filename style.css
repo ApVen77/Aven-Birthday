@@ -1,51 +1,166 @@
 * {
     list-style-type: none;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: cursive;
+    margin: 2px 7Spx;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+body {
+    background-image: url("images/rohro-clark-Jgdbp3pPj9Q-unsplash.jpg");
+    /* The image used */
+    /* background-color: aqua; */
+
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.img2 {
+
+    height: 60px;
+    width: 70px;
+    margin-left: 50px;
+    box-shadow: 5px 10px 8px #888888;
+    
+}
+
+
+
+nav .nav1 {
+
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+.nav1::first-letter {
+    font-size: 40px;
+}
+
+.widgets {
+    background-color: rgb(198, 253, 253);
+    height:100px;
+    padding-top:20px;
+}
+
+#demo {
     font-size: 25px;
 }
 
 
-body {
-    background-image:url("images/krystal-ng-PrQqQVPzmlw-unsplash.jpg");
-    background-size: contain;
-    background-repeat: repeat;
-    
+nav .nav2 {
+
+    font-size: 25px;
+    text-decoration: none;
+
 }
 
-li {
-    font-size: 30px;
-    font-weight: bolder;
+.nav2::first-letter {
+    font-size: 40px;
 }
 
-.jumbotron-fluid {
-    background-color: rgb(179, 22, 22);
-    
-    background-image: url("https://media.giphy.com/media/OPtp47fgYK8oa3TiyZ/giphy.gif"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    border: rgb(black 5px solid); 
+nav .nav {
+
+    font-size: 25px;
+    text-decoration: none;
 }
 
-
+.img1,
 img {
-    height: 300px;
-    width: 200px; 
-    margin: 7px;
-    border: dashed rgb(182, 65, 123)  5px; 
-    border-radius: 50%;
+    border-radius: 80%;
+    /* border: dotted rgb(250, 79, 165) 5px; */
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.img1:hover {
+
+    transform: rotate(60deg);
+}
+
+.img2:hover {
+
+    transform: skew(20deg, 20deg);
+}
+
+.img1,
+.img2 {
+    /* properties you want to transition  */
+    transition-property: all;
+    -moz-transition-property: all;
+    /* /* How long you want the element to transition from start to finish */
     transition-duration: 2s;
+
+    /* how long until the transition begins */
     transition-delay: 2s;
-    transition-property: transform filter;
+    /* how we want our elements to tranistion ease, ease-in ease-out ease-in-out */
+    transition-timing-function: ease-out;
+
 }
 
-img:hover {
-    transform: translateY(40px);
-    filter: blur(3px);
+
+
+#para-1,
+#para2 {
+    width: 35%;
+    text-align: left;
+    line-height: 40px;
 }
 
-.footer {
-    width: 50px;
-    height: 50px;
-    border: none;
+#para2 {
+    color: rgb(175, 149, 4);
+}
+
+#para-1::first-letter {
+    font-size: 40px;
+}
+
+nav::first-letter {
+    font-size: 40px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+
+
+}
+
+hr {
+    border: solid hotpink 10px;
+}
+
+.social-icons {
+    text-align: center;
 }
