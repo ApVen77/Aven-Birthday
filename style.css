@@ -43,9 +43,10 @@ nav .nav1 {
     font-size: 40px;
 }
 
-.widgets {
+#widgets {
     background-color: rgb(198, 253, 253);
-    height:100px;
+    height: 115px;
+    width: 131px;
     padding-top:20px;
 }
 
